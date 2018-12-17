@@ -1,0 +1,26 @@
+textures.png
+size: 1014, 1782
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pelota
+  rotate: false
+  xy: 0, 0
+  size: 111, 110
+  orig: 111, 110
+  offset: 0, 0
+  index: -1
+pista
+  rotate: false
+  xy: 0, 187
+  size: 1014, 1595
+  orig: 1014, 1595
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 111, 0
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1

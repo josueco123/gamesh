@@ -600,10 +600,10 @@ public class LevelTwo extends InputAdapter implements Screen {
         if(game.isCHALLENGE){
             continuarReto(total2);
         }else{
-            if(puntuacionJugador1 == 2){
+            if(puntuacionJugador1 == 7){
                 endGameScreen = new EndGameScreen(game,true,total2);
                 game.setScreen(endGameScreen);
-            }else if(puntuacionJugador2 == 2){
+            }else if(puntuacionJugador2 == 7){
                 endGameScreen = new EndGameScreen(game,false,total2);
                 game.setScreen(endGameScreen);
             }
@@ -646,11 +646,11 @@ public class LevelTwo extends InputAdapter implements Screen {
     private void continuarReto(String result){
         switch (game.challengeLEVEL) {
             case 9:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 3) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 5) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
@@ -660,27 +660,27 @@ public class LevelTwo extends InputAdapter implements Screen {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 11:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 5) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 12:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }

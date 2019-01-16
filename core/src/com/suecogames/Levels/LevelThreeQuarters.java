@@ -668,17 +668,17 @@ public class LevelThreeQuarters extends InputAdapter implements Screen {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 5) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 28:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
@@ -688,17 +688,17 @@ public class LevelThreeQuarters extends InputAdapter implements Screen {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 5) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 30:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 7) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }

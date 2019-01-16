@@ -600,10 +600,10 @@ public class LevelFive extends InputAdapter implements Screen {
         if(game.isCHALLENGE){
             continuarReto(total2);
         }else{
-            if(puntuacionJugador1 == 2){
+            if(puntuacionJugador1 == 7){
                 endGameScreen = new EndGameScreen(game,true,total2);
                 game.setScreen(endGameScreen);
-            }else if(puntuacionJugador2 == 2){
+            }else if(puntuacionJugador2 == 7){
                 endGameScreen = new EndGameScreen(game,false,total2);
                 game.setScreen(endGameScreen);
             }
@@ -648,31 +648,31 @@ public class LevelFive extends InputAdapter implements Screen {
 
         switch (game.challengeLEVEL) {
             case 48:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 7) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 12) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 49:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 9) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 15) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 50:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 10) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 20) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }

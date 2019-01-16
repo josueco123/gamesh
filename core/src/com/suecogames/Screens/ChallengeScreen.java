@@ -70,7 +70,7 @@ public class ChallengeScreen extends BaseScreen {
         challengeLabel.setPosition(Gdx.graphics.getWidth()/2.5f,divide*7);
         textLabel.setPosition(Gdx.graphics.getWidth()/3f,divide*5.5f);
         levelLabel.setPosition(Gdx.graphics.getWidth()/2.7f,divide*3.8f);
-        youLabel.setPosition(Gdx.graphics.getWidth()/2.5f,divide*3.4f);
+        youLabel.setPosition(Gdx.graphics.getWidth()/2.6f,divide*3.4f);
 
         stage.addActor(btnBack);
         stage.addActor(btnGo);

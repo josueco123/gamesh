@@ -38,11 +38,11 @@ public class AndroidLauncher extends AndroidApplication implements RewardedVideo
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		initialize(new MainGame(this), config);
 
-		MobileAds.initialize(this,"ca-app-pub-5740875488960578/3307290700");
+		MobileAds.initialize(this,"ca-app-pub-5740875488960578/2350582979");
 		mAd = MobileAds.getRewardedVideoAdInstance(this);
 		mAd.setRewardedVideoAdListener(this);
 
-		mAd.loadAd("ca-app-pub-5740875488960578/3307290700", new AdRequest.Builder().build());
+		mAd.loadAd("ca-app-pub-5740875488960578/2350582979", new AdRequest.Builder().build());
 
 	}
 

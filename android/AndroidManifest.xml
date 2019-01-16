@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <meta-data
-                android:name="com.google.android.gms.ads.ca-app-pub-3940256099942544/5224354917"
+                android:name="com.google.android.gms.ads.ca-app-pub-5740875488960578~7247686433"
                 android:value="ca-app-pub-5740875488960578~6765806523"/>
     </application>
 

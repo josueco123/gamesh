@@ -26,7 +26,7 @@ public class SettingScreen extends BaseScreen {
     private Texture textBackground;
     private SpriteBatch batch;
 
-    private TextButton btnBack;
+    private TextButton btnBack,btnReset;
 
 
 
@@ -48,12 +48,22 @@ public class SettingScreen extends BaseScreen {
         int divide = ((Gdx.graphics.getHeight()/2)/5)+15;
 
         btnBack = new TextButton(bundle.get("back"),skin);
+        btnReset = new TextButton(bundle.get("reset"),skin);
 
 
         btnBack.setSize(150,60);
+        btnReset.setSize(280,100);
+        btnReset.setPosition(middleWidth/2.5f,divide*2);
         btnBack.setPosition(middleWidth/6,divide);
 
         settingsLabel.setPosition(Gdx.graphics.getWidth()/2.5f,divide*7);
+
+        btnReset.addCaptureListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                game.challengeLEVEL = 1;
+            }
+        });
 
         btnBack.addCaptureListener(new ChangeListener() {
             @Override
@@ -61,13 +71,12 @@ public class SettingScreen extends BaseScreen {
                 if(game.SOUND)
                     game.menuSound.play(0.5f);
                 game.setScreen(game.menuScreen);
-
-                game.preferences.flush();
             }
         });
 
         stage.addActor(settingsLabel);
         stage.addActor(btnBack);
+        stage.addActor(btnReset);
 
         //Music Group
         ButtonGroup musicGroup = new ButtonGroup();

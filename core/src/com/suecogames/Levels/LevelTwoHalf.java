@@ -653,41 +653,41 @@ public class LevelTwoHalf extends InputAdapter implements Screen {
     private void continuarReto(String result){
         switch (game.challengeLEVEL) {
             case 13:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 5) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 5) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 14:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 15:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 7) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 7) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 16:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 5) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 7) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }

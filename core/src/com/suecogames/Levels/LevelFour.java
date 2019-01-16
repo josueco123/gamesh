@@ -598,10 +598,10 @@ public class LevelFour extends InputAdapter implements Screen {
         if(game.isCHALLENGE){
             continuarReto(total2);
         }else{
-            if(puntuacionJugador1 == 2){
+            if(puntuacionJugador1 == 7){
                 endGameScreen = new EndGameScreen(game,true,total2);
                 game.setScreen(endGameScreen);
-            }else if(puntuacionJugador2 == 2){
+            }else if(puntuacionJugador2 == 7){
                 endGameScreen = new EndGameScreen(game,false,total2);
                 game.setScreen(endGameScreen);
             }
@@ -656,11 +656,11 @@ public class LevelFour extends InputAdapter implements Screen {
                 }
                 break;
             case 36:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
@@ -676,11 +676,11 @@ public class LevelFour extends InputAdapter implements Screen {
                 }
                 break;
             case 38:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 7) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }

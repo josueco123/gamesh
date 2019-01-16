@@ -91,7 +91,7 @@ public class EndGameScreen extends BaseScreen {
         labelResult.setPosition(middleWidth*1.3f,divide *2);
         labelScore.setPosition(middleWidth*1.4f,divide*1.7f);
         labelLevel.setPosition(middleWidth*1.2f,divide*1.2f);
-        labelAd.setPosition(middleWidth*0.5f,divide*0.9f);
+        labelAd.setPosition(middleWidth*1.5f,divide*0.9f);
 
         stage.addActor(btnBack);
         stage.addActor(btnAd);

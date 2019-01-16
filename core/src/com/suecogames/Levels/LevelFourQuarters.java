@@ -657,7 +657,7 @@ public class LevelFourQuarters extends InputAdapter implements Screen {
 
         switch (game.challengeLEVEL) {
             case 44:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
@@ -667,31 +667,31 @@ public class LevelFourQuarters extends InputAdapter implements Screen {
                 }
                 break;
             case 45:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 6) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 6) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 46:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 8) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 8) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
                 break;
             case 47:
-                if (puntuacionJugador1 == 4) {
+                if (puntuacionJugador1 == 9) {
                     game.challengeLEVEL++;
                     endGameScreen = new EndGameScreen(game, true, result);
                     game.setScreen(endGameScreen);
-                } else if (puntuacionJugador2 == 4) {
+                } else if (puntuacionJugador2 == 9) {
                     endGameScreen = new EndGameScreen(game, false, result);
                     game.setScreen(endGameScreen);
                 }
